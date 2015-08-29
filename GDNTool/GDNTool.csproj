@@ -54,6 +54,67 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Renci.SshNet\AuthenticationMethod.cs" />
+    <Compile Include="Renci.SshNet\AuthenticationResult.cs" />
+    <Compile Include="Renci.SshNet\BaseClient.cs" />
+    <Compile Include="Renci.SshNet\CipherInfo.cs" />
+    <Compile Include="Renci.SshNet\ClientAuthentication.cs" />
+    <Compile Include="Renci.SshNet\CommandAsyncResult.cs" />
+    <Compile Include="Renci.SshNet\ConnectionInfo.cs" />
+    <Compile Include="Renci.SshNet\ExpectAction.cs" />
+    <Compile Include="Renci.SshNet\ExpectAsyncResult.cs" />
+    <Compile Include="Renci.SshNet\ForwardedPort.cs" />
+    <Compile Include="Renci.SshNet\ForwardedPortDynamic.cs" />
+    <Compile Include="Renci.SshNet\ForwardedPortDynamic.NET.cs" />
+    <Compile Include="Renci.SshNet\ForwardedPortDynamic.NET40.cs" />
+    <Compile Include="Renci.SshNet\ForwardedPortLocal.cs" />
+    <Compile Include="Renci.SshNet\ForwardedPortLocal.NET.cs" />
+    <Compile Include="Renci.SshNet\ForwardedPortLocal.NET40.cs" />
+    <Compile Include="Renci.SshNet\ForwardedPortRemote.cs" />
+    <Compile Include="Renci.SshNet\ForwardedPortRemote.NET.cs" />
+    <Compile Include="Renci.SshNet\ForwardedPortRemote.NET40.cs" />
+    <Compile Include="Renci.SshNet\HashInfo.cs" />
+    <Compile Include="Renci.SshNet\IAuthenticationMethod.cs" />
+    <Compile Include="Renci.SshNet\IConnectionInfo.cs" />
+    <Compile Include="Renci.SshNet\IForwardedPort.cs" />
+    <Compile Include="Renci.SshNet\IServiceFactory.cs" />
+    <Compile Include="Renci.SshNet\IServiceFactory.NET.cs" />
+    <Compile Include="Renci.SshNet\ISession.cs" />
+    <Compile Include="Renci.SshNet\ISubsystemSession.cs" />
+    <Compile Include="Renci.SshNet\KeyboardInteractiveAuthenticationMethod.cs" />
+    <Compile Include="Renci.SshNet\KeyboardInteractiveAuthenticationMethod.NET40.cs" />
+    <Compile Include="Renci.SshNet\KeyboardInteractiveConnectionInfo.cs" />
+    <Compile Include="Renci.SshNet\KeyboardInteractiveConnectionInfo.NET40.cs" />
+    <Compile Include="Renci.SshNet\MessageEventArgs.cs" />
+    <Compile Include="Renci.SshNet\NetConfClient.cs" />
+    <Compile Include="Renci.SshNet\NoneAuthenticationMethod.cs" />
+    <Compile Include="Renci.SshNet\NoneConnectionInfo.cs" />
+    <Compile Include="Renci.SshNet\PasswordAuthenticationMethod.cs" />
+    <Compile Include="Renci.SshNet\PasswordAuthenticationMethod.NET40.cs" />
+    <Compile Include="Renci.SshNet\PasswordConnectionInfo.cs" />
+    <Compile Include="Renci.SshNet\PasswordConnectionInfo.NET40.cs" />
+    <Compile Include="Renci.SshNet\PrivateKeyAuthenticationMethod.cs" />
+    <Compile Include="Renci.SshNet\PrivateKeyConnectionInfo.cs" />
+    <Compile Include="Renci.SshNet\PrivateKeyFile.cs" />
+    <Compile Include="Renci.SshNet\ProxyTypes.cs" />
+    <Compile Include="Renci.SshNet\ScpClient.cs" />
+    <Compile Include="Renci.SshNet\ScpClient.NET.cs" />
+    <Compile Include="Renci.SshNet\ServiceFactory.cs" />
+    <Compile Include="Renci.SshNet\ServiceFactory.NET.cs" />
+    <Compile Include="Renci.SshNet\Session.cs" />
+    <Compile Include="Renci.SshNet\Session.NET.cs" />
+    <Compile Include="Renci.SshNet\Session.NET40.cs" />
+    <Compile Include="Renci.SshNet\SftpClient.cs" />
+    <Compile Include="Renci.SshNet\SftpClient.NET.cs" />
+    <Compile Include="Renci.SshNet\SftpClient.NET40.cs" />
+    <Compile Include="Renci.SshNet\Shell.cs" />
+    <Compile Include="Renci.SshNet\Shell.NET40.cs" />
+    <Compile Include="Renci.SshNet\ShellStream.cs" />
+    <Compile Include="Renci.SshNet\ShellStream.NET40.cs" />
+    <Compile Include="Renci.SshNet\SshClient.cs" />
+    <Compile Include="Renci.SshNet\SshCommand.cs" />
+    <Compile Include="Renci.SshNet\SshCommand.NET40.cs" />
+    <Compile Include="Renci.SshNet\SubsystemSession.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,6 +139,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Renci.SshNet\Channels\" />
+    <Folder Include="Renci.SshNet\Common\" />
+    <Folder Include="Renci.SshNet\Compression\" />
+    <Folder Include="Renci.SshNet\Documentation\" />
+    <Folder Include="Renci.SshNet\Messages\" />
+    <Folder Include="Renci.SshNet\Netconf\" />
+    <Folder Include="Renci.SshNet\Properties\" />
+    <Folder Include="Renci.SshNet\Security\" />
+    <Folder Include="Renci.SshNet\Sftp\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
